@@ -1,0 +1,33 @@
+.class public final synthetic LM/d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static synthetic a()Landroid/media/ApplicationMediaCapabilities$Builder;
+    .locals 1
+
+    new-instance v0, Landroid/media/ApplicationMediaCapabilities$Builder;
+
+    invoke-direct {v0}, Landroid/media/ApplicationMediaCapabilities$Builder;-><init>()V
+
+    return-object v0
+.end method
+
+.method public static bridge synthetic b(Landroid/view/ContentInfo$Builder;)Landroid/view/ContentInfo;
+    .locals 0
+
+    invoke-virtual {p0}, Landroid/view/ContentInfo$Builder;->build()Landroid/view/ContentInfo;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static bridge synthetic c(Landroid/media/metrics/PlaybackSession;Landroid/media/metrics/TrackChangeEvent;)V
+    .locals 0
+
+    invoke-virtual {p0, p1}, Landroid/media/metrics/PlaybackSession;->reportTrackChangeEvent(Landroid/media/metrics/TrackChangeEvent;)V
+
+    return-void
+.end method

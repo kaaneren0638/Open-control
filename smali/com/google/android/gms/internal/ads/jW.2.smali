@@ -1,0 +1,17 @@
+.class public interface abstract Lcom/google/android/gms/internal/ads/jW;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Comparable;
+
+
+# virtual methods
+.method public abstract E()Lcom/google/android/gms/internal/ads/NX;
+.end method
+
+.method public abstract zza()I
+.end method
+
+.method public abstract zzc()Z
+.end method

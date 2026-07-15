@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treydev.shades.panel.NotificationPanelView android:id="@id/notification_panel" android:background="@null" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.treydev.shades.panel.NotificationsQuickSettingsContainer android:layout_gravity="center|top" android:id="@id/notification_container_parent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.treydev.shades.panel.AutoReinflateContainer android:layout_gravity="center|top" android:id="@id/qs_auto_reinflate_container" android:clipChildren="false" android:clipToPadding="false" android:layout="@layout/qs_panel" android:layout_width="@dimen/notification_panel_width" android:layout_height="match_parent" />
+        <com.treydev.shades.stack.NotificationStackScrollLayout android:layout_gravity="center|top" android:id="@id/notification_stack_scroller" android:layout_width="@dimen/notification_panel_width" android:layout_height="match_parent" android:layout_marginBottom="@dimen/close_handle_underlap" android:paddingStart="@dimen/notification_side_paddings" android:paddingEnd="@dimen/notification_side_paddings" />
+    </com.treydev.shades.panel.NotificationsQuickSettingsContainer>
+    <TextView android:textSize="14.0sp" android:textColor="#e0ffffff" android:layout_gravity="center" android:id="@id/no_notifications" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:text="@string/empty_shade_text" android:alpha="0.0" />
+</com.treydev.shades.panel.NotificationPanelView>

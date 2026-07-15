@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="16.0sp" android:gravity="center" android:background="@drawable/selectable_item_borderless" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72.0dp" android:maxLines="2" android:lineSpacingMultiplier="1.05026" android:textAllCaps="false" android:layout_marginStart="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

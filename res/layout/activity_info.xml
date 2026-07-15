@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:background="@color/colorPrimaryDark" android:padding="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:paddingTop="4.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp">
+        <ImageView android:layout_gravity="start|center" android:id="@id/info_circle" android:background="?android:selectableItemBackgroundBorderless" android:padding="10.0dp" android:layout_width="46.0dp" android:layout_height="46.0dp" android:layout_marginTop="2.0dp" android:src="@drawable/ic_arrow_back" android:tint="?android:textColorPrimary" />
+        <TextView android:textSize="26.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:fontFamily="sans-serif" android:layout_marginStart="12.0dp" />
+    </LinearLayout>
+    <com.google.android.material.card.MaterialCardView android:id="@id/card_prefs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8.0dp" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/ahoy_card_radius" app:cardElevation="0.0dp">
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/info_card" android:background="@color/card_divider_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:background="@drawable/background_preference_category" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="96.0dp" android:layout_margin="16.0dp" android:foreground="?android:selectableItemBackground" android:backgroundTint="@color/layout_slider_color_2">
+                    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="?android:textColorPrimaryInverse" android:layout_gravity="start|center" android:id="@android:id/text1" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/upgrade" android:layout_weight="1.0" />
+                    <ImageView android:layout_gravity="center" android:layout_width="44.0dp" android:layout_height="44.0dp" android:src="@drawable/ic_premium" android:tint="?android:textColorPrimaryInverse" />
+                </LinearLayout>
+                <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/send_email" />
+                <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/write_review" />
+                <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/privacy_policy" />
+                <TextView android:textStyle="bold" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/view_licences" />
+            </LinearLayout>
+        </ScrollView>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

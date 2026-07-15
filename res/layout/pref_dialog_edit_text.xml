@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/AppAlertDialogContent2" android:padding="18.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@android:id/content" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/custom_carrier_hint" app:shapeAppearanceOverlay="@style/Rounded" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText android:id="@android:id/edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" />
+    </com.google.android.material.textfield.TextInputLayout>
+</FrameLayout>

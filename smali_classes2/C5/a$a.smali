@@ -1,0 +1,42 @@
+.class public final LC5/a$a;
+.super LC5/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LC5/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LC5/a<",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final b:LC5/a$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, LC5/a$a;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, LC5/a;-><init>(Z)V
+
+    sput-object v0, LC5/a$a;->b:LC5/a$a;
+
+    return-void
+.end method

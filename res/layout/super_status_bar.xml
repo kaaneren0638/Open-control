@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treydev.shades.panel.MiStatusBarWindowView android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.treydev.shades.stack.ScrimView android:id="@id/scrim_behind" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/heads_up_status_bar_layout" />
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/status_bar_expanded" />
+    <include layout="@layout/brightness_mirror" />
+</com.treydev.shades.panel.MiStatusBarWindowView>

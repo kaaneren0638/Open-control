@@ -1,0 +1,16 @@
+.class public interface abstract Lu5/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lu5/a$a;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract a()Lf1/p;
+.end method

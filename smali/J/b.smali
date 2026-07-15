@@ -1,0 +1,47 @@
+.class public final LJ/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic c:LJ/p;
+
+.field public final synthetic d:I
+
+
+# direct methods
+.method public constructor <init>(LJ/p;I)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LJ/b;->c:LJ/p;
+
+    iput p2, p0, LJ/b;->d:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    iget-object v0, p0, LJ/b;->c:LJ/p;
+
+    check-cast v0, LE/n$a;
+
+    iget-object v0, v0, LE/n$a;->a:LD/h$e;
+
+    if-eqz v0, :cond_0
+
+    iget v1, p0, LJ/b;->d:I
+
+    invoke-virtual {v0, v1}, LD/h$e;->c(I)V
+
+    :cond_0
+    return-void
+.end method

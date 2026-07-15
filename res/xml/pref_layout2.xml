@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.treydev.shades.widgets.preference.GridPreference android:title="@string/title_big_tiles_grid" android:key="big_tiles_grid" android:order="1" app:keyColumns="num_big_columns" app:keyRows="num_big_rows" app:maxColumns="4" app:maxRows="6" app:minColumns="1" app:minRows="0" />
+    <PreferenceCategory android:layout="@layout/pref_category_empty" android:order="3">
+        <EditTextPreference android:title="@string/title_cc_text" android:key="cc_text" android:dialogLayout="@layout/pref_dialog_edit_text" />
+        <SwitchPreference android:title="@string/title_cc_time" android:key="cc_show_time" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/title_use_slide_anim" android:key="use_slide_anim" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/title_qs_player_above" android:key="qs_player_on_top" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

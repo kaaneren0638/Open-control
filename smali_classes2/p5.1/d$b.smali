@@ -1,0 +1,48 @@
+.class public final Lp5/d$b;
+.super Lp5/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lp5/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field public final b:Ljava/lang/String;
+
+.field public c:I
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;I)V
+    .locals 1
+
+    const-string v0, "name"
+
+    invoke-static {p1, v0}, LV6/l;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lp5/d;-><init>()V
+
+    iput-object p1, p0, Lp5/d$b;->b:Ljava/lang/String;
+
+    iput p2, p0, Lp5/d$b;->c:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lp5/d$b;->b:Ljava/lang/String;
+
+    return-object v0
+.end method

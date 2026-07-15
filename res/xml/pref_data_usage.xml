@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/title_show_data_usage" android:key="usage_data_show" android:widgetLayout="@layout/switch_preference" app:allowDividerBelow="false" />
+    <SwitchPreference android:title="@string/title_usage_show_today" android:key="usage_show_today" android:widgetLayout="@layout/switch_preference" />
+    <com.treydev.shades.widgets.preference.NumberPickerPreference android:title="@string/title_usage_cycle_start" android:key="usage_cycle_start" android:defaultValue="1" app:maxRows="31" app:minRows="1" />
+    <com.treydev.shades.widgets.preference.NumberPickerPreference android:title="@string/title_usage_warning" android:key="usage_warning_bytes" android:summary="@string/summary_usage_warning" android:defaultValue="0" app:allowDividerBelow="false" app:maxRows="100" app:minRows="0" />
+</PreferenceScreen>

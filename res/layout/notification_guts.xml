@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treydev.shades.stack.NotificationGuts android:theme="@style/Theme.AppCompat.Light" android:gravity="start|top" android:orientation="vertical" android:id="@id/notification_guts" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:paddingTop="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="8.0dp">
+        <ImageView android:layout_width="18.0dp" android:layout_height="18.0dp" android:src="@android:drawable/arrow_down_float" android:layout_marginEnd="6.0dp" />
+        <TextView android:id="@id/pkgname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:layout_gravity="start|bottom" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    </LinearLayout>
+    <RadioGroup android:paddingTop="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="3.0dp" android:paddingEnd="8.0dp">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="40.0dp" android:paddingStart="22.0dp" />
+        <RadioButton android:layout_width="wrap_content" android:layout_height="40.0dp" android:paddingStart="22.0dp" />
+        <RadioButton android:layout_width="wrap_content" android:layout_height="40.0dp" android:paddingStart="22.0dp" />
+    </RadioGroup>
+    <TextView android:gravity="center_vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48.0dp" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="4.0dp" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="8.0dp">
+        <TextView android:ellipsize="end" android:id="@id/title" android:paddingBottom="2.0dp" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:minLines="2" android:textAlignment="viewStart" android:layout_alignStart="@id/title" />
+        <FrameLayout android:paddingTop="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="start|center" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/notification_auto_importance" />
+            <SeekBar android:layout_gravity="center_vertical" android:background="#00ffffff" android:focusable="true" android:layout_width="match_parent" android:layout_height="48.0dp" android:layout_marginStart="62.0dp" android:layout_marginEnd="32.0dp" android:progressTint="?android:colorAccent" android:progressBackgroundTint="#858383" android:thumbTint="?android:colorAccent" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:paddingTop="16.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:focusable="true" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="@string/quick_settings_more_settings" android:paddingStart="8.0dp" android:paddingEnd="8.0dp" />
+        <TextView android:gravity="center" android:id="@id/done" android:focusable="true" android:layout_width="wrap_content" android:layout_height="36.0dp" android:text="@string/quick_settings_done" android:layout_marginStart="8.0dp" android:layout_marginEnd="8.0dp" />
+    </LinearLayout>
+</com.treydev.shades.stack.NotificationGuts>

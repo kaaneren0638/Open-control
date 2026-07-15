@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treydev.shades.panel.qs.customize.QSCustomizer android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/qs_detail_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.0dp" android:elevation="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Toolbar android:id="@id/action_bar" android:background="@drawable/bg_footer_handle" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="10.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:paddingBottom="100.0dp" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:importantForAccessibility="no" android:scrollIndicators="top" />
+</com.treydev.shades.panel.qs.customize.QSCustomizer>
