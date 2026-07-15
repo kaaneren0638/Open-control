@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.button.MaterialButtonToggleGroup android:theme="@style/AppAlertDialogContent2" android:layout_gravity="start|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16.0dp" android:paddingEnd="16.0dp"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <Button android:id="@id/button_left_side" android:scrollbars="none" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/light_colors" android:layout_weight="0.5" android:textAllCaps="false" app:shapeAppearance="@style/Rounded" style="?materialButtonOutlinedStyle" />
-    <Button android:id="@id/button_right_side" android:scrollbars="none" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/dark_colors" android:layout_weight="0.5" android:textAllCaps="false" app:shapeAppearance="@style/Rounded" style="?materialButtonOutlinedStyle" />
-</com.google.android.material.button.MaterialButtonToggleGroup>

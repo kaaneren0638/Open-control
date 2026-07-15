@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.treydev.shades.panel.DismissView android:layout_gravity="center|bottom" android:background="@drawable/ic_qs_shape_circle" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/notification_clear_all_size" android:layout_height="@dimen/notification_clear_all_size" android:layout_marginRight="@dimen/notification_clear_all_start_margin" android:layout_marginBottom="@dimen/notification_clear_all_bottom_margin" android:elevation="3.0dp"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

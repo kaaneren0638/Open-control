@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-vector android:drawable="@drawable/ic_qs_battery_saver"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <target android:name="val" android:animation="@animator/ic_cc_qs_power_save_on__1" />
-</animated-vector>

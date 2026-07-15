@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.treydev.shades.panel.qs.QSDetailItems android:layout_width="match_parent" android:layout_height="match_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.treydev.shades.panel.qs.AutoSizingList android:orientation="vertical" android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" app:itemHeight="48.0dp" />
-    <com.treydev.shades.stack.AlphaOptimizedLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:paddingLeft="16.0dp" android:paddingRight="16.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.7">
-        <ImageView android:id="@android:id/icon" android:layout_width="56.0dp" android:layout_height="56.0dp" />
-        <TextView android:textSize="14.0sp" android:gravity="center" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
-    </com.treydev.shades.stack.AlphaOptimizedLinearLayout>
-</com.treydev.shades.panel.qs.QSDetailItems>

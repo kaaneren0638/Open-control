@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.treydev.shades.stack.RemoteInputView android:paddingBottom="20.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/notification_content_margin_end" android:paddingEnd="@dimen/notification_content_margin_end"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <view android:textAppearance="?android:textAppearance" android:textSize="13.329987sp" android:ellipsize="start" android:gravity="start|center" android:layout_gravity="center_vertical" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="46.0dp" android:singleLine="true" android:layout_weight="1.0" android:inputType="textShortMessage|textCapSentences|textAutoCorrect" android:imeOptions="actionSend|flagNoFullscreen|flagNoExtractUi" android:paddingStart="16.0dp" android:paddingEnd="12.0dp" class="com.treydev.shades.stack.RemoteInputView$RemoteEditText" />
-    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="16.0dp">
-        <ImageButton android:layout_gravity="center" android:id="@id/remote_input_send" android:background="@drawable/notification_reply_send_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notification_reply_send" />
-        <ProgressBar android:layout_gravity="center" android:id="@id/remote_input_progress" android:visibility="invisible" android:layout_width="24.0dp" android:layout_height="24.0dp" android:indeterminate="true" android:layout_marginEnd="6.0dp" style="?android:progressBarStyleSmall" />
-    </FrameLayout>
-</com.treydev.shades.stack.RemoteInputView>

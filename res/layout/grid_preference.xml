@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:padding="16.0dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.treydev.shades.widgets.GridPreviewLayout android:layout_gravity="center" android:id="@id/grid_preview" android:background="@drawable/background_preference_category" android:padding="12.0dp" android:layout_width="148.0dp" android:layout_height="224.0dp" android:backgroundTint="@color/mtrl_btn_stroke_color_selector" />
-    <NumberPicker android:layout_gravity="start|center" android:id="@id/picker_rows" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <NumberPicker android:layout_gravity="end|center" android:id="@id/picker_columns" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

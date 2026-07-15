@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<animated-vector android:drawable="@drawable/ic_ui_mode_dark"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <target android:name="out" android:animation="@animator/ic_cc_qs_night_mode_off__1" />
-    <target android:name="outgroup" android:animation="@animator/ic_cc_qs_night_mode_off__2" />
-    <target android:name="mask_1" android:animation="@animator/ic_cc_qs_night_mode_off__3" />
-    <target android:name="innergroup" android:animation="@animator/ic_cc_qs_night_mode_off__4" />
-    <target android:name="mask" android:animation="@animator/ic_cc_qs_night_mode_off__5" />
-</animated-vector>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.treydev.shades.panel.cc.BatteryMeterView android:id="@id/battery" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="4.0dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.treydev.shades.panel.cc.BatteryMeterIconView android:gravity="center" android:layout_gravity="center" android:id="@id/battery_image" android:layout_width="wrap_content" android:layout_height="match_parent" />
-    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/battery_charge_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/battery_meter_progress_center_left_offset" android:src="@drawable/battery_meter_charging" />
-    <TextView android:textSize="10.359985dp" android:textColor="#e6ffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/battery_digit" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/battery_meter_progress_center_left_offset" android:singleLine="true" android:translationY="-1.0px" android:fontFamily="sans-serif-medium" />
-</com.treydev.shades.panel.cc.BatteryMeterView>

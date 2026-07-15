@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="bottom" android:id="@id/actions_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.treydev.shades.stack.NotificationActionListLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/actions" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/notification_action_list_height" android:paddingStart="@dimen/notification_content_margin_end" android:paddingEnd="@dimen/notification_content_margin_end" />
-</FrameLayout>

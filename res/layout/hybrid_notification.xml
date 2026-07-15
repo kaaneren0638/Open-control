@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.treydev.shades.stack.HybridNotificationView android:gravity="start|bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/notification_content_margin_end" android:paddingEnd="12.0dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Notification2.Title" android:id="@id/notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="4.0dp" />
-    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Notification2" android:id="@id/notification_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="4.0dp" />
-</com.treydev.shades.stack.HybridNotificationView>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_thumbs_up" android:id="@id/rate_app" android:title="@string/rate_prompt" app:showAsAction="ifRoom" />
-    <item android:icon="@drawable/ic_premium_crown" android:id="@id/premium" android:title="@string/offer_premium" app:showAsAction="ifRoom" />
-</menu>

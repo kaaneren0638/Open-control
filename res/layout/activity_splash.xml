@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/splash_background" android:layout_width="match_parent" android:layout_height="match_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/image1" android:layout_width="100.0dp" android:layout_height="100.0dp" android:src="@null" android:layout_centerInParent="true" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="20.0dp" android:layout_marginTop="8.0dp" android:src="@drawable/splash_title" android:layout_below="@id/image1" android:layout_centerHorizontal="true" />
-</RelativeLayout>
