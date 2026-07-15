@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="@dimen/battery_meter_charging_height" android:width="@dimen/battery_meter_charging_width" android:viewportWidth="@dimen/battery_meter_charging_viewport_width" android:viewportHeight="@dimen/battery_meter_charging_viewport_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="#ffffffff" android:pathData="M11.671 26H19L3 43L7.571 30.474L7.329 30H0L16 13L11.428 25.526L11.671 26Z" android:fillAlpha="0.9" />
-</vector>

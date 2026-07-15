@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="8.0dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.treydev.shades.stack.AlphaOptimizedButton android:id="@android:id/button2" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" android:layout_marginEnd="2.0dp" style="@android:style/Widget.Material.Button.Borderless.Small" />
-    <com.treydev.shades.stack.AlphaOptimizedButton android:id="@android:id/button1" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" style="@android:style/Widget.Material.Button.Borderless.Small" />
-</LinearLayout>
