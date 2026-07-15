@@ -1,8 +1,0 @@
-.class public interface abstract Lcom/yandex/mobile/ads/impl/zo;
-.super Ljava/lang/Object;
-.source "SourceFile"
-
-
-# virtual methods
-.method public abstract a(Landroid/content/Context;)Z
-.end method

@@ -1,3 +1,0 @@
-.class public interface abstract Lcom/yandex/mobile/ads/impl/an1;
-.super Ljava/lang/Object;
-.source "SourceFile"
