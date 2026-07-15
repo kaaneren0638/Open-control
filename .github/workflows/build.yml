@@ -44,11 +44,6 @@ jobs:
 
           echo "$ANDROID_SDK_ROOT/build-tools/35.0.0" >> $GITHUB_PATH
 
-      - name: Download Apktool
-        run: |
-          wget -q \
-          https://github.com/iBotPeaches/Apktool/releases/download/v2.11.1/apktool_2.11.1.jar \
-          -O apktool.jar
 
       - name: Build APK
         run: |
