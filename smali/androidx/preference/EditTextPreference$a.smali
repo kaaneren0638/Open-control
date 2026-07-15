@@ -1,0 +1,62 @@
+.class public final Landroidx/preference/EditTextPreference$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/preference/Preference$f;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/preference/EditTextPreference;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Landroidx/preference/Preference$f<",
+        "Landroidx/preference/EditTextPreference;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static a:Landroidx/preference/EditTextPreference$a;
+
+
+# virtual methods
+.method public final a(Landroidx/preference/Preference;)Ljava/lang/CharSequence;
+    .locals 1
+
+    check-cast p1, Landroidx/preference/EditTextPreference;
+
+    iget-object v0, p1, Landroidx/preference/EditTextPreference;->W:Ljava/lang/String;
+
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const v0, 0x7f1301a3
+
+    iget-object p1, p1, Landroidx/preference/Preference;->c:Landroid/content/Context;
+
+    invoke-virtual {p1, v0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    iget-object p1, p1, Landroidx/preference/EditTextPreference;->W:Ljava/lang/String;
+
+    :goto_0
+    return-object p1
+.end method

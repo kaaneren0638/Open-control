@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/TilesSetupTheme" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tutorial_extra_button" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+    <TextView android:textSize="13.0sp" android:textColor="?android:textColorSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dp" android:text="@string/optional_not_all_devices" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.treydev.shades.widgets.preference.EdgeTriggerPreferences android:key="edge_triggers" app:allowDividerBelow="false" />
+    <SwitchPreference android:title="@string/trigger_vibrate" android:key="trigger_vibrate" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/trigger_only_home" android:key="trigger_only_home" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/title_remove_in_fullscreen" android:key="trigger_remove_fullscreen" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/trigger_remove_keyboard" android:key="trigger_remove_keyboard" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" app:allowDividerBelow="false" />
+</androidx.preference.PreferenceScreen>

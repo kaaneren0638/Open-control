@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/qs_time_collapsed_size" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="3.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="22.0dp" android:layout_height="22.0dp" android:tint="?android:textColorPrimary" />
+    <ImageView android:layout_gravity="center" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="2.0dp" android:src="@drawable/ic_tap" android:tint="?android:textColorPrimary" android:rotation="-15.0" android:layout_marginStart="16.0dp" />
+</LinearLayout>

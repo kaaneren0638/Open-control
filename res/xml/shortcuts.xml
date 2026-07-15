@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_expand_notification" android:enabled="true" android:shortcutId="pull_down_shade" android:shortcutShortLabel="@string/launcher_shortcut_name">
+        <intent android:targetPackage="com.treydev.micontrolcenter" android:action="android.intent.action.MAIN" android:targetClass="com.treydev.shades.activities.CreateShortcut" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_expand_notification" android:enabled="true" android:shortcutId="pull_down_settings" android:shortcutShortLabel="@string/launcher_shortcut_name2">
+        <intent android:targetPackage="com.treydev.micontrolcenter" android:action="android.intent.action.MAIN" android:targetClass="com.treydev.shades.activities.CreateShortcut2" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

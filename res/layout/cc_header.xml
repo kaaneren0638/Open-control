@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treydev.shades.panel.cc.ControlCenterHeader android:orientation="vertical" android:id="@id/header" android:focusable="true" android:focusableInTouchMode="true" android:clickable="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/qs_control_panel_margin_horizontal" android:paddingEnd="@dimen/qs_control_panel_margin_horizontal" android:elevation="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/quick_qs_status_icons" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/tiles_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dp">
+        <TextView android:textSize="29.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/control_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/style_selector_control" android:singleLine="true" android:layout_weight="1.0" android:translationY="-3.0dp" android:fontFamily="sans-serif-light" />
+        <com.treydev.shades.stack.AlphaOptimizedImageView android:id="@id/multi_user_avatar" android:padding="13.0dp" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_marginEnd="-4.0dp" />
+        <com.treydev.shades.stack.AlphaOptimizedImageView android:id="@id/qs_power_button" android:padding="13.0dp" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_power_button" android:layout_marginEnd="-4.0dp" />
+        <FrameLayout android:id="@id/app_settings_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.treydev.shades.panel.SettingsButton android:id="@id/app_settings_button" android:background="@drawable/selectable_item_borderless" android:padding="10.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_app_settings" />
+            <ImageView android:id="@id/icon_red_dot" android:background="@drawable/selectable_item_borderless" android:padding="10.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_red_dot" />
+        </FrameLayout>
+        <com.treydev.shades.panel.SettingsButton android:id="@id/settings_button" android:padding="13.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_settings" android:layout_marginEnd="-4.0dp" />
+        <com.treydev.shades.stack.AlphaOptimizedImageView android:id="@id/edit_pencil2" android:padding="13.0dp" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="48.0dp" android:layout_height="48.0dp" android:src="@drawable/ic_mode_edit" android:layout_marginEnd="-12.0dp" />
+    </LinearLayout>
+</com.treydev.shades.panel.cc.ControlCenterHeader>

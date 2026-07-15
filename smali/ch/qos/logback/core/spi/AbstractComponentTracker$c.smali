@@ -1,0 +1,62 @@
+.class public final Lch/qos/logback/core/spi/AbstractComponentTracker$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lch/qos/logback/core/spi/AbstractComponentTracker$e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lch/qos/logback/core/spi/AbstractComponentTracker;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lch/qos/logback/core/spi/AbstractComponentTracker$e<",
+        "TC;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lch/qos/logback/core/spi/AbstractComponentTracker;
+
+
+# direct methods
+.method public constructor <init>(Lch/qos/logback/core/spi/AbstractComponentTracker;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lch/qos/logback/core/spi/AbstractComponentTracker$c;->a:Lch/qos/logback/core/spi/AbstractComponentTracker;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lch/qos/logback/core/spi/AbstractComponentTracker$d;J)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lch/qos/logback/core/spi/AbstractComponentTracker$d<",
+            "TC;>;J)Z"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lch/qos/logback/core/spi/AbstractComponentTracker$c;->a:Lch/qos/logback/core/spi/AbstractComponentTracker;
+
+    invoke-static {v0, p1, p2, p3}, Lch/qos/logback/core/spi/AbstractComponentTracker;->access$100(Lch/qos/logback/core/spi/AbstractComponentTracker;Lch/qos/logback/core/spi/AbstractComponentTracker$d;J)Z
+
+    move-result p1
+
+    return p1
+.end method

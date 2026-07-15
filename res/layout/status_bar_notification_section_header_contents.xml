@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:gravity="start" android:id="@id/header_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_section_header_gentle" android:layout_weight="1.0" android:fontFamily="sans-serif" android:textAlignment="gravity" android:layout_marginStart="@dimen/notification_content_margin_end" />
+    <ImageView android:id="@id/btn_clear_all" android:background="@drawable/selectable_item_borderless" android:padding="@dimen/notification_silent_header_icon_padding" android:layout_width="@dimen/notification_section_header_height" android:layout_height="@dimen/notification_section_header_height" android:src="@drawable/ic_close_black_24dp" android:layout_marginEnd="4.0dp" />
+</merge>

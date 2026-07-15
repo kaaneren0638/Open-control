@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treydev.shades.panel.cc.ControlPanelWindowView android:background="@null" android:focusable="true" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.treydev.shades.stack.ScrimView android:id="@id/scrim_behind" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.treydev.shades.panel.cc.ControlPanelContentView android:layout_gravity="center_horizontal" android:id="@id/control_panel_content" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <include layout="@layout/qs_control_center_panel" />
+        <include layout="@layout/qs_control_detail" />
+        <include layout="@layout/qs_control_brightness_mirror" />
+        <include layout="@layout/qs_control_center_customize_panel" />
+    </com.treydev.shades.panel.cc.ControlPanelContentView>
+    <View android:layout_gravity="bottom" android:id="@id/control_center_bottom_area" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="36.0dp" />
+</com.treydev.shades.panel.cc.ControlPanelWindowView>

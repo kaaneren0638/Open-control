@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treydev.shades.panel.cc.tileimpl.CCDataUsageBigTile android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/qs_control_big_tile_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.treydev.shades.panel.cc.tileimpl.BigQSIconViewImpl android:layout_gravity="center_vertical" android:layout_width="28.0dp" android:layout_height="28.0dp" android:layout_marginLeft="1.0dp" android:layout_marginStart="14.0dp" />
+    <RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="-9.0dp" android:layout_marginStart="7.75dp">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <com.treydev.shades.widgets.AutoMarqueeTextView android:textSize="12.0dp" android:textColor="#96000000" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/qs_control_big_tiles_interval_vertical" android:singleLine="true" android:marqueeRepeatLimit="2" />
+            <com.treydev.shades.widgets.AutoMarqueeTextView android:textSize="12.0dp" android:textColor="#96000000" android:gravity="start|center" android:layout_gravity="start" android:id="@id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.6669922dp" android:layout_marginRight="@dimen/qs_control_big_tiles_interval_vertical" android:singleLine="true" android:marqueeRepeatLimit="2" />
+        </LinearLayout>
+        <ImageView android:id="@id/indicator" android:layout_width="8.0dp" android:layout_height="8.0dp" android:layout_marginRight="10.0dp" android:layout_marginBottom="10.0dp" android:src="@drawable/qs_big_tile_expand_indicator" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.treydev.shades.panel.cc.tileimpl.CCDataUsageBigTile>

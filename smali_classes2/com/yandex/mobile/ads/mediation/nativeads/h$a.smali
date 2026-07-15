@@ -1,0 +1,27 @@
+.class interface abstract Lcom/yandex/mobile/ads/mediation/nativeads/h$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/yandex/mobile/ads/mediation/nativeads/h;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Lcom/yandex/mobile/ads/base/AdResponse;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/yandex/mobile/ads/base/AdResponse<",
+            "Lcom/yandex/mobile/ads/impl/cj0;",
+            ">;)V"
+        }
+    .end annotation
+.end method

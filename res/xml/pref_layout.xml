@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.treydev.shades.widgets.preference.ImageListPreference android:entries="@array/listArray_shape" android:title="@string/title_icon_shape" android:key="qs_icon_shape" android:defaultValue="circle" android:entryValues="@array/listValues_shape" app:useSimpleSummaryProvider="true" />
+    <com.treydev.shades.widgets.preference.GridPreference android:title="@string/title_tiles_grid" android:key="tiles_grid" app:keyColumns="num_columns" app:keyRows="num_rows" app:maxColumns="9" app:maxRows="8" app:minColumns="3" app:minRows="2" />
+    <com.treydev.shades.widgets.preference.GridPreference android:title="@string/title_header_num" app:key="num_qqs" app:keyColumns="num_qqs" app:maxColumns="9" app:minColumns="3" />
+    <com.treydev.shades.widgets.preference.NumberPickerPreference android:title="@string/title_qs_size" android:key="qs_size" android:summary="@string/sum_qs_size" app:maxRows="76" app:minRows="30" />
+    <SwitchPreference android:title="@string/title_small_corners" android:key="small_corners" android:summary="@string/sum_small_corners" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/title_centered_actions" android:key="centered_actions" android:widgetLayout="@layout/switch_preference" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/title_use_sections" android:key="use_sections" android:summary="@string/summary_use_sections" android:widgetLayout="@layout/switch_preference" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/title_circle_battery" android:key="circle_battery" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/title_power_button" android:key="show_power_button" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/title_show_seconds" android:key="show_seconds" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/title_show_netspeed" android:key="show_net_speed" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/title_show_signal_x" android:key="show_signal_x" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" app:allowDividerBelow="false" />
+    <com.treydev.shades.widgets.preference.NumberPickerPreference android:title="@string/title_max_children" android:key="key_max_group_children" android:summary="@string/sum_max_children" app:allowDividerBelow="false" app:maxRows="50" app:minRows="5" />
+</PreferenceScreen>

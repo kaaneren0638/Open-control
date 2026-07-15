@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference android:title="@string/title_hu" android:key="use_heads_up" android:summary="@string/summary_hu" android:widgetLayout="@layout/switch_preference" android:defaultValue="true" app:allowDividerBelow="false" />
+    <SwitchPreference android:title="@string/title_system_hu" android:key="disable_system_hu" android:summary="@string/summary_system_hu" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/title_remove_in_fullscreen" android:key="disable_hu_fullscreen" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" app:allowDividerBelow="false" />
+    <SwitchPreference android:title="@string/title_colorize_hu_badge" android:key="colorize_hu_badge" android:summary="@string/summary_colorize_hu_badge" android:widgetLayout="@layout/switch_preference" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/title_disable_hu_badge" android:key="original_hu_header" android:summary="@string/summary_disable_hu_badge" android:widgetLayout="@layout/switch_preference" android:defaultValue="false" />
+    <com.treydev.shades.widgets.preference.NumberPickerPreference android:title="@string/title_hu_timeout" android:key="hu_timeout" android:defaultValue="5" app:allowDividerBelow="false" app:maxRows="120" app:minRows="2" />
+</androidx.preference.PreferenceScreen>

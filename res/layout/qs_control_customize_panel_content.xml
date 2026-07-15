@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:layout_marginStart="@dimen/qs_control_panel_margin_horizontal" android:layout_marginEnd="@dimen/qs_control_panel_margin_horizontal">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0sp" android:textColor="#fff" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qs_control_customize_title" />
+            <View android:layout_width="0.0px" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="13.329987sp" android:textColor="#b2000000" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/save" android:background="@drawable/qs_control_customize_save_background" android:paddingLeft="12.0dp" android:paddingRight="12.0dp" android:layout_width="wrap_content" android:layout_height="26.0dp" android:text="@string/qs_control_customize_save_text" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#7fffffff" android:id="@id/sub_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/qs_control_customize_sub_title" android:layout_alignParentBottom="true" />
+        <com.treydev.shades.panel.cc.springback.SpringBackLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" app:scrollableView="@id/list_added">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/list_added" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:scrollIndicators="none" />
+        </com.treydev.shades.panel.cc.springback.SpringBackLayout>
+    </LinearLayout>
+    <com.treydev.shades.panel.cc.customize.UnAddedTilesLayout android:id="@id/unAdded_tiles" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

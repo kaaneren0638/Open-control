@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/notifications_header" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/notification_panel_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qs_control_center_header_paddingTop" android:paddingStart="20.0dp" android:paddingEnd="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/time_and_date_cc" />
+    <com.treydev.shades.stack.AlphaOptimizedImageView android:layout_gravity="start|center" android:id="@id/cc_notification_manage" android:padding="2.0dp" android:focusable="true" android:clickable="true" android:clipToPadding="false" android:layout_width="@dimen/qs_footer_button_size" android:layout_height="@dimen/qs_footer_button_size" android:layout_marginTop="6.0dp" android:src="@drawable/ic_notification_manage" android:alpha="0.8" />
+</LinearLayout>
